@@ -1,24 +1,27 @@
 		body{
-		background-color: black;
+		background-image: linear-gradient(#000000, #000852);
 		font-family: 'Gilroy', sans-serif;
 		font-size: 13px;
 		color: white;
 		overflow: hidden;
+		height: 100%;
 		}
-		.gradient{
-		  height: 100%;
-		  background-image: linear-gradient(#000000, #000852);
-		}
+		
 		.box{
 			margin: auto;
 			left: 0;
 			right: 0;
 			text-align: center;
+			width: 25%;
+			border: 2px solid #ffffff;
+			border-radius: 15px;
+			padding: 5px;
+			transform: translate(0, 50%);
 		}
 		.progress{
 		color: rgba(255, 255, 255,.7);
-		text-align="center"
-		
+		transform: translate(0, 60%);
+		text-align="center";
 		}
 		.text {
 		text-align="center"
@@ -30,16 +33,16 @@
 		align-items: center;
 }
 
-.text span {
-  text-transform: uppercase;
-  padding: 0 0.3rem;
-  font-size: 20px;
-  animation: zoomup 2s ease infinite;
-  display: inline-block;
-  animation-delay: calc(200ms * var(--i));
-  font-family: 'Gilroy', sans-serif;
-  color: rgba(255, 255, 255,.8);
-}
+		.text span {
+		text-transform: uppercase;
+		padding: 0 0.3rem;
+		font-size: 20px;
+		animation: zoomup 2s ease infinite;
+		display: inline-block;
+		animation-delay: calc(200ms * var(--i));
+		font-family: 'Gilroy', sans-serif;
+		color: rgba(255, 255, 255,.8);
+		}		
 
 		@keyframes zoomup {
 			0%,
@@ -52,12 +55,11 @@
 			filter: blur(0,5px);
 			opacity: 0;
 		}
-}
+		}
 
 	
 		
 		.links{
-			 width: 18%;
 			 margin-left: auto; 
 			 margin-right: auto;
 		}
