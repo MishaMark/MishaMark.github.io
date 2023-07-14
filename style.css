@@ -1,11 +1,14 @@
 		body{
-		background-image: url('1711593.gif');
-		font-family: e-Ukraine, sans-serif;
+		background-image: url('summer-sunset.webp');
+		background-repeat: stretch;
+		background-position: center;
+		background-size: cover;
 		font-size: 13px;
 		color: white;
 		overflow: hidden;
 		height: 100%;
 		}
+		
 		
 		.box{
 			margin: auto;
@@ -17,7 +20,7 @@
 			border: 2px solid #ffffff;
 			border-radius: 15px;
 			padding: 5px;
-			transform: translate(0, 50%);
+			transform: translate(0, 100%);
 			background-color: rgba(0, 0, 0, 0.5);
 		}
 		.progress{
@@ -104,7 +107,7 @@
 }
 
 .snow:before {
-	margin-left: -350px;
+  margin-left: -350px;
   opacity: 0.7;
   filter: blur(1px);
   animation-duration: 9s;
