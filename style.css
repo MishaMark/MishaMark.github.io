@@ -1,6 +1,6 @@
 		body{
-		background-image: url('summer-sunset.webp');
-		background-repeat: stretch;
+		background-image: url('autumn_bg.gif');
+		background-repeat: fill;
 		background-position: center;
 		background-size: cover;
 		font-size: 13px;
@@ -22,7 +22,7 @@
 			border-radius: 15px;
 			padding: 5px;
 			transform: translate(0, 100%);
-			background-color: rgba(0, 0, 0, 0.5);
+			background-color: rgba(0, 0, 0, 0.7);
 		}
 		.progress{
 		color: rgba(255, 255, 255,.7);
