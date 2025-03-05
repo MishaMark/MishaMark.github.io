@@ -1,5 +1,5 @@
 		body{
-		background-image: url('winter_bg.gif');
+		background-image: url('spring_540.webp');
 		background-repeat: no-repeat;
 		background-position: center bottom;
 		background-size: cover;
@@ -23,7 +23,7 @@
 			border-radius: 15px;
 			padding: 5px;
 			transform: translate(0, 100%);
-			background-color: rgba(82, 51, 63, 0.75);
+			background-color: rgba(0, 100, 147, 0.55);
 			
 		}
 		.progress{
